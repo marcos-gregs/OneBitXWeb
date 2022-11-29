@@ -78,10 +78,31 @@ main{
     html{
         font-size: 50%;
     }
-    
+    button{
+        font-size: 30px;
+    }
     .headerContent{
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 70%;
         position: 0 20vw;
+    }
+    .sectionTwo{
+        background-position: 70%;
+    }
+    .sectionThree {
+        background-position: 70%;
+
+    }
+}
+@media (max-width:426) {
+    .textContent>h3{
+        font-size: 5px;
+        font-weight: 400;
+    
+    }
+    .textContent>h2{
+        font-weight: 600;
+        font-size:10px;
     }
 }

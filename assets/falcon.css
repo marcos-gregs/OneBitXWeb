@@ -47,7 +47,7 @@ main{
     justify-content: center;
 }
 .cardText{
-    width: 25%;
+    width: 30%;
     color: aliceblue;
     text-align: center;
 }
@@ -65,9 +65,10 @@ main{
     background-size: cover;
 }
 .falconContent>p{
+    margin-top: 5%;
     margin-left: 3%;
-    margin-right: 45%;
-    font-size: 30px;
+    margin-right: 50%;
+    font-size: 20px;
     text-align: justify;
     color: aliceblue;
     font-weight: 400;
@@ -199,4 +200,114 @@ main{
 .footerBtn:hover{
     color: rgba(0, 0, 0, 0.989);
     background-color: rgba(255, 255, 255, 0.797);
+}
+/* Responsivo */
+@media (max-width:770px) {
+    html{
+        font-size: 50%;
+    }
+    .cardText>h1{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .cardText>p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .falconContent{
+        background-position: 20%;
+      
+    }
+    .falconContent>p{
+        margin-left: 5%;
+        margin-right: 40%;
+  
+    }
+    .primeiroEstagio{
+        background-position: 20%;
+    }
+    .segundoEstagio{
+        background-position: 20%;
+    }
+    .interestadual{
+        background-position: 20%;
+    }
+    .cargaUtil{
+        background-position: 25%;
+    }
+    .visaoGeral{
+        background-position: 25%;
+    }
+    .merlinContent{
+        background-position: 20%;
+    }
+}
+@media (max-width:426px) {
+    html{
+        font-size: 30%;
+    }
+    .headerContent>h1{
+        margin-top: 40%;
+        font-size: 40px;
+    }
+
+    .cardText>h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .cardText>p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .falconContent{
+        background-position: 50%;
+      
+    }
+    .falconContent>p{
+        margin-left: 5%;
+        margin-right: 40%;
+        font-size: 10px;
+    }
+    .primeiroEstagio{
+        background-position: 50%;
+    }
+    .segundoEstagio{
+        background-position: 50%;
+    }
+    .interestadual{
+        background-position: 50%;
+    }
+    .cargaUtil{
+        background-position: 50%;
+    }
+    .visaoGeral{
+        background-position: 50%;
+    }
+    .merlinContent{
+        background-position: 50%;
+    }
+    .content0{
+        background-position: 50%;
+    }
+    
+    .content1{
+        background-position: 50%;
+    }
+    .content2{
+        background-position: 50%;
+    }
+    .content3{
+        background-position: 50%;
+    }
+    .content4{
+        background-position: 50%;
+    }
+    .content5{
+        background-position: 50%;
+    }
+    .sectionCard{
+        font-size: 10px;
+    }
+    
+    
 }

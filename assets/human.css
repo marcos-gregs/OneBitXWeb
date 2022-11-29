@@ -9,16 +9,19 @@ body{
     background-color: black;
 }
 main{
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 .headerContent{
+ 
     flex: 0 0 100vh;
-    min-width: 100%;
+    min-width: 100vw;
+
     background-image: url('../Img/humanFlight/01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+   
  
 
 }
@@ -42,6 +45,7 @@ main{
     max-width: 40vw;
 }
 .sectionContent{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -50,15 +54,16 @@ main{
     color: aliceblue;
     text-align: center;
     padding-top: 3%;
-   padding-right: 25%;
-   padding-left: 25%;
-   padding-bottom: 3%;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 3%;
 }
 .content01{
     background-image: url('../Img/humanFlight/02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     flex: 0 0 100vh;
+    min-width: 100vw;
     display: flex;
     justify-content: right;
 }
@@ -67,12 +72,14 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     flex: 0 0 100vh;
+    min-width: 100vw;
 }
 .content03{
     background-image: url('../Img/humanFlight/04.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     flex: 0 0 100vh;
+    min-width: 100vw;
     display: flex;
     justify-content: right;
 }
@@ -81,13 +88,13 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     flex: 0 0 100vh;
-}
+    min-width: 100vw;}
 /* Left-Content */
 
 
 
 .textContent{
-    width: 100w;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     max-width: 40%;
@@ -110,7 +117,7 @@ main{
 /* Right Content */
 
 .rigthtTextContent{
-    width: 100w;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     max-width: 40%;
@@ -144,7 +151,7 @@ main{
     background-color: rgba(255, 255, 255, 0.797);
 }
 .footerBtn{
-    max-width: 14vw;
+    max-width: 10vw;
     margin-right: 2%;
     min-height: 10vh;
     background-color: rgba(255, 255, 255, 0);
@@ -156,4 +163,30 @@ main{
 .footerBtn:hover{
     color: rgba(0, 0, 0, 0.989);
     background-color: rgba(255, 255, 255, 0.797);
+}
+@media (max-width:1126px) {
+
+   .headerImg>h1{
+    font-size: 70px;
+    text-align: center;
+   } 
+   .content01{
+    background-position: 50%;
+
+}
+.content02{
+    background-position: 60%;
+ 
+}
+.content03{
+    background-position: 50%;
+
+}
+.content04{
+    background-position: 50%;
+}
+.footerBtn{
+    
+    font-size: 9px;
+}
 }

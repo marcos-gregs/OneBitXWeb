@@ -1,0 +1,14 @@
+.footerContent{
+    flex: 0 0 10vh;
+    background-color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+.footerContent>span{
+    color: rgba(132, 126, 126, 0.984);
+}
+.footerContent>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+}
