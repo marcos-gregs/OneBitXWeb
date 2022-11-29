@@ -1,0 +1,15 @@
+#contentNav {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.textNav >li >a{
+    color: white;
+    font-weight: 700;
+}
+.logo{
+    max-width: 20vw;
+}
+#btnNav{
+    color: aliceblue;
+}

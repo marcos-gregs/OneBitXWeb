@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;  
+    color: azure;  
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+.headerContent{
+    flex: 0 0 100vh;
+    background-image: url('../Img/falcon9/01.jpg');
+    background-size: cover;
+    background-position: 10%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.headerContent>h1{
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 80px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.headerContent>h3{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+.sectionContent{
+    display: flex;
+    flex-direction: column;
+}
+.sectionContentCard{
+    flex: 0 0 40vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.cardText{
+    width: 25%;
+    color: aliceblue;
+    text-align: center;
+}
+.cardText>h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+.cardText>p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.falconContent{
+    flex: 0 0 100vh;
+    background-image: url('../Img/falcon9/02.jpg');
+    background-size: cover;
+}
+.falconContent>p{
+    margin-left: 3%;
+    margin-right: 45%;
+    font-size: 30px;
+    text-align: justify;
+    color: aliceblue;
+    font-weight: 400;
+}
+.textCarousel,.merlinText{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 50%;
+    position: absolute;
+}
+#tableContente{
+    width: 40vw;
+
+  
+}
+.td{
+    text-align: right;
+}
+
+#tableContente>tbody{
+  border-bottom: 1px solid white;
+  
+
+}
+#tableContente>tbody>tr{
+   text-align: inherit;
+   
+   
+ 
+}
+.primeiroEstagio{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/04.jpg');
+    background-size: cover;
+}
+.segundoEstagio{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/05.jpg');
+    background-size: cover;
+}
+.interestadual{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/06.jpg');
+    background-size: cover;
+}
+.cargaUtil{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/07.jpg');
+    background-size: cover;
+}
+.visaoGeral{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/03.jpg');
+    background-size: cover;
+}
+
+.merlinContent{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/08.jpg');
+    background-size: cover;
+}
+.content0{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/09.jpg');
+    background-size: cover;
+}
+
+.content1{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/10.jpg');
+    background-size: cover;
+}
+.content2{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/11.jpg');
+    background-size: cover;
+}
+.content3{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/12.jpg');
+    background-size: cover;
+}
+.content4{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/13.jpg');
+    background-size: cover;
+}
+.content5{
+    min-height: 100vh;
+    background-image: url('../Img/falcon9/14.jpg');
+    background-size: cover;
+}
+/* text last section this tag p */
+.textcontent{
+
+    min-width:80%;
+    
+}
+.textcontent>p{
+    width: 100%;
+    background-color: black;
+}
+.sectionCard{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    min-height: 40vh;
+    padding-top: 6%;
+   padding-right: 25%;
+   padding-left: 25%;
+   padding-bottom: 3%;
+}
+.footerBtn{
+    min-width: 14vw;
+    max-width: 20vw;
+    margin-right: 2%;
+    min-height: 10vh;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+
+}
+.footerBtn:hover{
+    color: rgba(0, 0, 0, 0.989);
+    background-color: rgba(255, 255, 255, 0.797);
+}

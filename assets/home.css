@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+.headerContent{
+    flex: 0 0 100vh;
+    background-image: url('../Img/home/01.jpg');
+    background-size: cover;
+  
+}
+
+   
+.sectionOne{
+    flex: 0 0 100vh;
+    background-image: url('../Img/home/03.jpg');
+    background-size: cover;
+}
+.sectionTwo{
+    flex: 0 0 100vh;
+    background-image: url('../Img/home/02.gif');
+    background-size:cover;
+}
+
+.sectionThree{
+    flex: 0 0 100vh;
+    background-image: url('../Img/home/04.jpg');
+    background-size: cover;
+}
+.footerContent{
+    flex: 0 0 20vh;
+    background-color: black;
+}
+.textContent{
+    width: 100w;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-top: 40vh;
+    margin-left: 5vw;
+      
+    
+    color: aliceblue;
+
+}
+.textContent>h3{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.textContent>h2{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.btnConfig{
+    margin-top: 10%;
+    max-width: 14vw;
+    min-height: 8vh;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    color: white;
+    border: 2px solid white;
+}
+.btnConfig:hover{
+    color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(255, 255, 255, 0.651);
+}
+@media (max-width:770px) {
+    html{
+        font-size: 50%;
+    }
+    
+    .headerContent{
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: 0 20vw;
+    }
+}
