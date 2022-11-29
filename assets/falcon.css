@@ -242,6 +242,19 @@ main{
         background-position: 20%;
     }
 }
+@media (max-width:690px) {
+    .primeiroEstagio,.visaoGeral,.segundoEstagio,.merlinContent{
+        background-position: 50%;
+    }
+ 
+    .interestadual{
+        background-position: 60%;
+    }
+    .cargaUtil{
+        background-position: 50%;
+    }
+
+}
 @media (max-width:426px) {
     html{
         font-size: 30%;
